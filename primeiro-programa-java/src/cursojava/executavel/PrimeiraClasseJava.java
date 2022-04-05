@@ -2,26 +2,18 @@ package cursojava.executavel;
 
 public class PrimeiraClasseJava {
 	
-	/*Variável Global é ascessível a todos e o seu valor é compartilhado*/
-	static int maiorIdadeGlobal = 30;
-	
 	/*Main é um método auto executável de Java*/
 	public static void main(String[] args) {
 		
-			
-	/*Variável local pertence somente a esse método eo valor fica dentro do método*/
-	int maiorIdade = 18;
-	System.out.println("Valor da variável local = " + maiorIdade);
-	System.out.println("Valor da variável Global = " + maiorIdadeGlobal);
+		double nota1 = 90;
+		double nota2 = 70;
+		double nota3 = 50;
+		double nota4 = 88;
 		
-	metodo2();
-				
+		double mediaFinal = (nota1 + nota2 + nota3 + nota4) / 4;
 		
+		System.out.println("Média das notas = " + mediaFinal);
+	
 	}
-	public static void metodo2 () {
-		System.out.println("Valor da variável Global = " + maiorIdadeGlobal);
-		
-		
-	}
-
+	
 }
