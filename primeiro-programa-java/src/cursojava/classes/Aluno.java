@@ -2,8 +2,8 @@ package cursojava.classes;
 
 public class Aluno {
 	/*Esses são os atributos do aluno*/
-	String nome;
-	int idade;
+	public String nome;
+	public int idade;
 	String dataNascimento;
 	String registroGeral;
 	String numeroCpf;
@@ -23,13 +23,13 @@ public class Aluno {
 	/*chamo de 'nomePadrao, por exemplo ao receber a String*/
 	/*defino que o "nome" dessa sempre vai ser = ao nomePadrao */
 	public Aluno (String nomePadrao) {
-		nome = nomePadrao
+		nome = nomePadrao;
 		
 		
 	}
 
 	public Aluno (String nomePadrao, int idadePadrao) {
-		nome = nomePadrao
-		idade = idadePadrao
+		nome = nomePadrao;
+		idade = idadePadrao;
 	}
 }

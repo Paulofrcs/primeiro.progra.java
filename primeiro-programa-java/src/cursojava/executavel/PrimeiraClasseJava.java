@@ -11,6 +11,11 @@ public class PrimeiraClasseJava {
 		/*new é uma palavra reservada do Java*/
 		/*O "Ojbjeto" em Java é isso aí em baixo; no caso é a estrutura Aluno aaluno1 = new Aluno();*/
 		Aluno aluno1 = new Aluno(); /*Aqui será o João*/
+		aluno1.nome = "João";
+		aluno1.idade = 50;
+		
+		System.out.println("O nome do aluno é " + aluno1.nome);
+		System.out.println("O nome do aluno é " + aluno1.idade);
 		
 		Aluno aluno2 = new Aluno();/*Aqui será o Pedro...*/
 		
@@ -22,11 +27,6 @@ public class PrimeiraClasseJava {
 		/*construtor com dois parâmetros*/
 		Aluno aluno5 = new Aluno("José", 50);
 		
-	
-
-		
-		
-		
-	}
+		}
 
 }
