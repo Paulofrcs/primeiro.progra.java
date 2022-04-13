@@ -11,13 +11,10 @@ public class PrimeiraClasseJava {
 		/*new é uma palavra reservada do Java*/
 		/*O "Ojbjeto" em Java é isso aí em baixo; no caso é a estrutura Aluno aaluno1 = new Aluno();*/
 		Aluno aluno1 = new Aluno(); /*Aqui será o João*/
-		aluno1.nome = "João";
-		aluno1.idade = 50;
-		
-		System.out.println("O nome do aluno é " + aluno1.nome);
-		System.out.println("O nome do aluno é " + aluno1.idade);
-		
+		aluno1.setNome("João da Silva"); /*com o método set eu chamo com "set.nome..."*/		
+		System.out.println("O nome do aluno é " + aluno1.getNome());		/*Aqui usei o getNome...*/
 		Aluno aluno2 = new Aluno();/*Aqui será o Pedro...*/
+		
 		
 		Aluno aluno3 = new Aluno(); /*Aqui será o Alex...*/
 		
